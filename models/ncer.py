@@ -7,7 +7,7 @@ NcerJSON = Dict[str, Union[int, str]]
 
 
 class NcerModel(db.Model):
-    __tablename__ = "ncer"
+    __tablename__ = "test"
 
     id = db.Column(db.Integer, primary_key=True)
     chrom = db.Column(db.String(8), nullable=False)
